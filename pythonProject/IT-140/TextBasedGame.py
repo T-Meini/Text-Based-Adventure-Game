@@ -77,6 +77,8 @@ def main():
                 print('Invalid Direction. Try again.')
         elif user_input == 'Collect Item'.strip().lower():
             get_item(location, rooms[location]['item'], rooms, inventory)
+        else:
+            print('Invalid Input. Try again.')
 
 
 main()
